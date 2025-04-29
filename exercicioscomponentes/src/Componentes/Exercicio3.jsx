@@ -1,11 +1,11 @@
-export default function Exercicio1( {fah} )
+export default function Exercicio3( {valor, taxa, tempo} )
 {
 
-    let celsius = (fah - 32) * 5/9;
+    let ValorParcela = valor + (valor*(taxa*taxa /100)*tempo)
 
     return (
        <div>
-        A temperatura {fah}°F em Celsius é {celsius} °C.
+        O valor da parcela atualizada é {parcela}R$
        </div>
     )
 }

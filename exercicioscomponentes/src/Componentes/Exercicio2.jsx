@@ -6,7 +6,7 @@ export default function Exercicio( {peso,altura} )
     return (
 
        <div>
-            uma pessoa com {pesoKg} e {alturaM} tem IMC 
+            uma pessoa com {peso}kg e {altura}m tem IMC 
        </div>
     )
 }
